@@ -17,6 +17,18 @@
       {
         "id": "workshop-a-line",
         "path": "skills/workshop-a-line/SKILL.md"
+      },
+      {
+        "id": "find-the-right-word",
+        "path": "skills/find-the-right-word/SKILL.md"
+      },
+      {
+        "id": "poem-of-the-day",
+        "path": "skills/poem-of-the-day/SKILL.md"
+      },
+      {
+        "id": "rhyme-and-meter",
+        "path": "skills/rhyme-and-meter/SKILL.md"
       }
     ],
     "mcpServers": [
