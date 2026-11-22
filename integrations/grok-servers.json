@@ -3,7 +3,9 @@
     "url": "https://classic-poetry.mcp.opzero.sh/mcp",
     "allowed_tools": [
       "search_poems",
-      "get_poem"
+      "get_poem",
+      "list_poets",
+      "poem_for_today"
     ]
   },
   "rhyme-finder": {
@@ -18,7 +20,8 @@
     "url": "https://open-dictionary.mcp.opzero.sh/mcp",
     "allowed_tools": [
       "define_word",
-      "find_synonyms"
+      "find_synonyms",
+      "words_starting_with"
     ]
   }
 }
