@@ -1,0 +1,30 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "poetry-workshop-rhyme-finder",
+  "version": "1.0.0",
+  "description": "Explore rhymes, pronunciation and syllable counts for a line in progress.",
+  "author": {
+    "name": "OpZero",
+    "url": "https://opzero.sh"
+  },
+  "homepage": "https://rhyme-finder.mcp.opzero.sh/",
+  "repository": "https://github.com/OpZero-sh/poetry-workshop-plugin",
+  "license": "LicenseRef-OpZero-Plugin",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Rhyme Finder",
+        "shortDescription": "Workshop rhyme and rhythm",
+        "longDescription": "Explore rhymes, pronunciation and syllable counts for a line in progress.",
+        "developerName": "OpZero",
+        "category": "Productivity",
+        "websiteURL": "https://rhyme-finder.mcp.opzero.sh/",
+        "privacyPolicyURL": "https://rhyme-finder.mcp.opzero.sh/?page=privacy",
+        "supportURL": "https://rhyme-finder.mcp.opzero.sh/?page=support",
+        "termsOfServiceURL": "https://opzero.sh/terms",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/icon.png"
+      }
+    }
+  }
+}

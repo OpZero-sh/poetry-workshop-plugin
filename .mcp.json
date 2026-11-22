@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "classic-poetry": {
+      "type": "http",
+      "url": "https://classic-poetry.mcp.opzero.sh/mcp"
+    },
+    "rhyme-finder": {
+      "type": "http",
+      "url": "https://rhyme-finder.mcp.opzero.sh/mcp"
+    },
+    "open-dictionary": {
+      "type": "http",
+      "url": "https://open-dictionary.mcp.opzero.sh/mcp"
+    }
+  }
+}

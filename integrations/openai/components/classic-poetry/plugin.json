@@ -1,0 +1,30 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "poetry-workshop-classic-poetry",
+  "version": "1.0.0",
+  "description": "Find classic poems by title, poet or remembered wording and read the matching work.",
+  "author": {
+    "name": "OpZero",
+    "url": "https://opzero.sh"
+  },
+  "homepage": "https://classic-poetry.mcp.opzero.sh/",
+  "repository": "https://github.com/OpZero-sh/poetry-workshop-plugin",
+  "license": "LicenseRef-OpZero-Plugin",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Classic Poetry",
+        "shortDescription": "Read a classic poem",
+        "longDescription": "Find classic poems by title, poet or remembered wording and read the matching work.",
+        "developerName": "OpZero",
+        "category": "Productivity",
+        "websiteURL": "https://classic-poetry.mcp.opzero.sh/",
+        "privacyPolicyURL": "https://classic-poetry.mcp.opzero.sh/?page=privacy",
+        "supportURL": "https://classic-poetry.mcp.opzero.sh/?page=support",
+        "termsOfServiceURL": "https://opzero.sh/terms",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/icon.png"
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "poetry-workshop",
+  "version": "1.0.0",
+  "description": "Read classic poems closely and workshop the sound and sense of your own lines.",
+  "author": {
+    "name": "OpZero",
+    "url": "https://opzero.sh"
+  },
+  "repository": "https://github.com/OpZero-sh/poetry-workshop-plugin",
+  "keywords": [
+    "poetry",
+    "writing",
+    "rhyme"
+  ],
+  "displayName": "Poetry Workshop",
+  "homepage": "https://github.com/OpZero-sh/poetry-workshop-plugin",
+  "documentationUrl": "https://github.com/OpZero-sh/poetry-workshop-plugin#readme",
+  "privacyPolicyUrl": "https://opzero.sh/privacy",
+  "supportUrl": "https://opzero.sh/support",
+  "termsOfServiceUrl": "https://opzero.sh/terms",
+  "icon": "./assets/icon.png",
+  "license": "LicenseRef-OpZero-Plugin"
+}

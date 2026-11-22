@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "name": "poetry-workshop",
+  "version": "1.0.0",
+  "displayName": "Poetry Workshop",
+  "description": "Read classic poems closely and workshop the sound and sense of your own lines.",
+  "compat": {
+    "source": "native",
+    "manifestDir": ".muse-plugin"
+  },
+  "capabilities": {
+    "skills": [
+      {
+        "id": "read-a-poem",
+        "path": "skills/read-a-poem/SKILL.md"
+      },
+      {
+        "id": "workshop-a-line",
+        "path": "skills/workshop-a-line/SKILL.md"
+      }
+    ],
+    "mcpServers": [
+      {
+        "id": "classic-poetry",
+        "transport": "http",
+        "url": "https://classic-poetry.mcp.opzero.sh/mcp"
+      },
+      {
+        "id": "rhyme-finder",
+        "transport": "http",
+        "url": "https://rhyme-finder.mcp.opzero.sh/mcp"
+      },
+      {
+        "id": "open-dictionary",
+        "transport": "http",
+        "url": "https://open-dictionary.mcp.opzero.sh/mcp"
+      }
+    ]
+  }
+}

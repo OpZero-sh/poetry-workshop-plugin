@@ -1,0 +1,30 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "poetry-workshop",
+  "version": "1.0.0",
+  "description": "Read classic poems closely and workshop the sound and sense of your own lines.",
+  "author": {
+    "name": "OpZero",
+    "url": "https://opzero.sh"
+  },
+  "homepage": "https://github.com/OpZero-sh/poetry-workshop-plugin",
+  "repository": "https://github.com/OpZero-sh/poetry-workshop-plugin",
+  "license": "LicenseRef-OpZero-Plugin",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Poetry Workshop",
+        "shortDescription": "Read poems and workshop lines",
+        "longDescription": "Read classic poems closely and workshop the sound and sense of your own lines.",
+        "developerName": "OpZero",
+        "category": "Productivity",
+        "websiteURL": "https://github.com/OpZero-sh/poetry-workshop-plugin",
+        "privacyPolicyURL": "https://opzero.sh/privacy",
+        "supportURL": "https://opzero.sh/support",
+        "termsOfServiceURL": "https://opzero.sh/terms",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/icon.png"
+      }
+    }
+  }
+}

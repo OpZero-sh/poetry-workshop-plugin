@@ -1,0 +1,30 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "poetry-workshop-open-dictionary",
+  "version": "1.0.0",
+  "description": "Check a definition or explore synonyms for the particular sense a writer intends.",
+  "author": {
+    "name": "OpZero",
+    "url": "https://opzero.sh"
+  },
+  "homepage": "https://open-dictionary.mcp.opzero.sh/",
+  "repository": "https://github.com/OpZero-sh/poetry-workshop-plugin",
+  "license": "LicenseRef-OpZero-Plugin",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Open Dictionary",
+        "shortDescription": "Find the right word",
+        "longDescription": "Check a definition or explore synonyms for the particular sense a writer intends.",
+        "developerName": "OpZero",
+        "category": "Productivity",
+        "websiteURL": "https://open-dictionary.mcp.opzero.sh/",
+        "privacyPolicyURL": "https://open-dictionary.mcp.opzero.sh/?page=privacy",
+        "supportURL": "https://open-dictionary.mcp.opzero.sh/?page=support",
+        "termsOfServiceURL": "https://opzero.sh/terms",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/icon.png"
+      }
+    }
+  }
+}

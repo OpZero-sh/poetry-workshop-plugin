@@ -1,0 +1,24 @@
+{
+  "classic-poetry": {
+    "url": "https://classic-poetry.mcp.opzero.sh/mcp",
+    "allowed_tools": [
+      "search_poems",
+      "get_poem"
+    ]
+  },
+  "rhyme-finder": {
+    "url": "https://rhyme-finder.mcp.opzero.sh/mcp",
+    "allowed_tools": [
+      "find_rhymes",
+      "count_syllables",
+      "pronounce_word"
+    ]
+  },
+  "open-dictionary": {
+    "url": "https://open-dictionary.mcp.opzero.sh/mcp",
+    "allowed_tools": [
+      "define_word",
+      "find_synonyms"
+    ]
+  }
+}
