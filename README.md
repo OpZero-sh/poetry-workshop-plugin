@@ -60,9 +60,9 @@ Limits worth knowing:
 - **Three remote MCP servers:** `https://classic-poetry.mcp.opzero.sh/mcp`, `https://rhyme-finder.mcp.opzero.sh/mcp` and `https://open-dictionary.mcp.opzero.sh/mcp`. A request carries only the tool arguments: search words, a title or poet, a date, or the word or line being looked up. No sign in is used. Each service states that requests are not stored.
 - **Your own drafts.** When you workshop a line, the words or the single line being checked are sent to the rhyme and dictionary services. The skills tell Claude not to send a whole poem, its title or your name.
 - **No hooks, no local server and no install step.** Nothing in the plugin runs a program on your machine.
-- **Two optional scripts** for people working from a checkout. Claude does not run them and the plugin does not need them.
-  - `scripts/build_openai.py` builds the ZIP packages for ChatGPT and Codex from the files in this repository. It reads local files, writes ZIP files to the folder you name and makes no network request.
-  - `integrations/grok_example.py` prepares a request to the xAI API that points Grok at the same MCP servers, using the list in `integrations/grok-servers.json`. With `--dry-run` it prints the request and contacts nothing. Without it, the script reads `XAI_API_KEY` and the optional `XAI_MODEL` from your environment and sends your question to `https://api.x.ai/v1/responses`. That happens only when you run the script yourself.
+- **Two optional scripts** for people working from a checkout. Claude does not run them and the plugin does not need them. They are not in this repository. They live in the catalog repository, [OpZero-sh/plugins](https://github.com/OpZero-sh/plugins).
+  - The catalog's `tools/build_openai.py` builds the ZIP packages for ChatGPT and Codex from this repository's skills, license, `assets/icon.png` and `integrations/openai`. It reads local files, writes ZIP files to the folder you name and makes no network request.
+  - The catalog's `tools/grok_example.py` prepares a request to the xAI API that points Grok at the same MCP servers, using the list in `integrations/grok-servers.json`. With `--dry-run` it prints the request and contacts nothing. Without it, the script reads `XAI_API_KEY` and the optional `XAI_MODEL` from your environment and sends your question to `https://api.x.ai/v1/responses`. That happens only when you run the script yourself.
 
 ## In use
 

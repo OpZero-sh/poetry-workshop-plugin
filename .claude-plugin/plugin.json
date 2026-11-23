@@ -19,12 +19,5 @@
   "supportUrl": "https://opzero.sh/support",
   "termsOfServiceUrl": "https://opzero.sh/terms",
   "icon": "./assets/icon.png",
-  "license": "LicenseRef-OpZero-Plugin",
-  "network": {
-    "hosts": [
-      "classic-poetry.mcp.opzero.sh",
-      "open-dictionary.mcp.opzero.sh",
-      "rhyme-finder.mcp.opzero.sh"
-    ]
-  }
+  "license": "LicenseRef-OpZero-Plugin"
 }
